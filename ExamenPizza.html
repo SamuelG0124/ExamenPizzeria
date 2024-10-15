@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria</title>
+    <link rel="stylesheet" href="/css/ExamenPizzeria.css">
+</head>
+<body>
+
+    <div class="formulario">
+    <h2>Samu's Pizzeria</h2>
+
+    <form action="">
+        <label for="">Seleccione su pizza base:</label>
+        <br><br>
+        <select name="" id="base">
+
+            <option value="0">Seleccione</option>
+            <option value="1">Solo Queso</option>
+            <option value="2">Jamon y Queso</option>
+            <option value="3">Especial</option>
+
+        </select>
+        <br><br>
+
+        <h3>Ingredientes Extra</h3>
+
+        <label for=""><input type="checkbox" id="1">Maiz</label>
+        <br>
+        <label for=""><input type="checkbox" id="2">Queso</label>
+        <br>
+        <label for=""><input type="checkbox" id="3">Guacamole</label>
+        <br>
+        <label for=""><input type="checkbox" id="4">Tocino</label>
+        <br>
+        <label for=""><input type="checkbox" id="5">Pepperoni</label>
+
+        <br><br>
+
+        <h3>Cantidad de pizzas</h3>
+
+        <label for="">Digite la cantidad de esta pizza que desea:</label>
+        
+        <input type="text" id="cantidad" placeholder="EJ:3">
+        
+
+    </form>
+    <br>
+    <button type="button" onclick="mostrar()">Calcular el total</button>
+
+    <p id="ver"></p>
+
+    <script src="/JS/ExamenPizzeria.js"></script>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
